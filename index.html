@@ -238,7 +238,6 @@
     <button class="btn-tab active" onclick="switchView('vista-menu')">📋 Menú Principal</button>
     <button class="btn-tab" onclick="switchView('vista-pb')">🏠 Planta Baja</button>
     <button class="btn-tab" onclick="switchView('vista-1p')">🏢 Primer Piso</button>
-    <button class="btn-tab" onclick="switchView('vista-ambas')">📐 Ambas Plantas</button>
   </div>
 
   <!-- VISTA 1: Menú Inicial con Miniaturas -->
@@ -291,29 +290,6 @@
     </div>
   </div>
 
-  <!-- VISTA 4: Ambas Plantas -->
-  <div id="vista-ambas" class="view-section">
-    <div class="contenedor-planos">
-      <div class="planta-wrapper">
-        <h2>Planta Baja</h2>
-        <div class="image-container">
-          <img src="planta_baja.png" alt="Planta Baja">
-          <div class="etiqueta" style="top: 15%; left: 65%;" onclick="openModal('Foto 2 - Living', 'foto2.jpg')">Foto 2</div>
-          <div class="etiqueta" style="top: 45%; left: 55%;" onclick="openModal('Foto 4 - Cocina Comedor', 'foto4.jpg')">Foto 4</div>
-          <div class="etiqueta" style="top: 60%; left: 35%;" onclick="openModal('Foto 5 - Patio Central', 'foto5.jpg')">Foto 5</div>
-        </div>
-      </div>
-      <div class="planta-wrapper">
-        <h2>Primer Piso</h2>
-        <div class="image-container">
-          <img src="primer_piso.png" alt="Primer Piso">
-          <div class="etiqueta" style="top: 15%; left: 30%;" onclick="openModal('Foto 10 - Dormitorio Principal', 'foto10.jpg')">Foto 10</div>
-          <div class="etiqueta" style="top: 40%; left: 80%;" onclick="openModal('Foto 13 - Patio Terraza', 'foto13.jpg')">Foto 13</div>
-          <div class="etiqueta" style="top: 90%; left: 50%;" onclick="openModal('Foto 14 - Quincho', 'foto14.jpg')">Foto 14</div>
-        </div>
-      </div>
-    </div>
-  </div>
 
   <!-- Ventana Emergente de Fotos -->
   <div id="photoModal" class="modal">
